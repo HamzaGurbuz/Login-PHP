@@ -52,8 +52,28 @@ $password = "";     // or your MySQL password
 
 $conn = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
 ?>
-
-
 ```
+
+## 🎨 UI Preview
+The form is centered with a dark background and styled buttons and inputs.
+Hovering over links changes color, and alert messages appear in styled divs like:
+
+```html
+<div class="success">Login successful!</div>
+<div class="error">Username or password is wrong.</div>
+```
+
+## ⚠️ Notes
+No JavaScript used — purely PHP + CSS
+
+Does not include CSRF protection or advanced session handling (for simplicity)
+
+For production: sanitize inputs, validate more thoroughly, and use HTTPS.
+
+## 🧠 Inspiration
+Made for learning PHP authentication basics and practicing Git + GitHub version control.
+
+
+
 
 
