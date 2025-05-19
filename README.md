@@ -41,4 +41,19 @@ CREATE TABLE users (
 );
 ```
 
-Make sure your ```sql db.php``` file contains the correct database credentials and connection like this:
+Make sure your ```db.php``` file contains the correct database credentials and connection like this:
+
+```php
+<?php
+$host = "localhost";
+$dbname = "your_database_name";
+$username = "root"; // or your MySQL username
+$password = "";     // or your MySQL password
+
+$conn = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
+?>
+
+
+```
+
+
