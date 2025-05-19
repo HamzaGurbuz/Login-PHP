@@ -39,5 +39,6 @@ CREATE TABLE users (
   username VARCHAR(255) NOT NULL,
   password VARCHAR(255) NOT NULL
 );
+```
 
-Make sure your ```db.php``` file contains the correct database credentials and connection like this:
+Make sure your ```sql db.php``` file contains the correct database credentials and connection like this:
