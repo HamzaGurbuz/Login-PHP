@@ -16,6 +16,7 @@ This is a basic user authentication project built with PHP and MySQL. It include
 
 ## 🗂️ File Structure
 
+```bash
 📁 login/
 ├── login.php # Login form + login logic
 ├── register.php # Registration form + registration logic
@@ -23,6 +24,7 @@ This is a basic user authentication project built with PHP and MySQL. It include
 ├── login.css # Styles for login box
 ├── db.php # Database connection (you must create this)
 └── README.md # You are here.
+```
 
 
 ---
